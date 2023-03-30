@@ -1,0 +1,86 @@
+<전통시장>
+전통시장명(market_nm)                 			
+시장 종류(market_type)               		
+주차장고유값(pl_id)                    
+주차장이름(pl_nm)                     
+법정동코드(bemd_code)                 
+일반-1일(전일)(pl_allday_pass_amt)    
+계획주차면수(pl_num_space_planned)     
+경도(logitude)                     
+위도(latitude)                     
+
+<문화시설>
+카테고리1(cate1)                     		
+카테고리2(cate2)                     		
+카테고리3(cate3)          			         
+주차장고유값(pl_id)                    
+시설 주차장명(pl_nm)                  
+법정동코드(bemd_code)                 
+일반-1일(전일)(pl_allday_pass_amt)    
+계획주차면수(pl_num_space_planned)     
+경도(logitude)                     
+위도(latitude)                     
+
+<골목상권>
+상권명           
+상권분류          
+주차장고유값        
+주차장이름         
+법정동코드         
+일반-1일(전일)     
+계획주차면수        
+경도           
+위도            
+
+-----------------------------------------------------------------------
+
+<공영주차장>
+동명					-> 법정동코드
+시설명	
+위치					-> 경도/위도
+주차면수 소계				
+주차요금 종일
+
+<야간개방주차장>
+주차장고유값         
+주차장명           
+경도             
+위도             
+거주자-전일(월)금액    
+법정읍면동명칭
+
+<부설주차장>
+주차장고유값(pl_id)	
+주차장이름(pl_nm)	
+일반-1일(전일)(pl_allday_pass_amt)	
+계획주차면수(pl_num_space_planned)	
+경도(logitude)	
+위도(latitude)
+법정동코드
+
+<계획주차면수가 없는 노상은 제외>
+주차장고유값(pl_id)				X
+지번주차장이름(pl_nm)			X
+1일(전일)금액(pl_allday_pass_amt)		X
+경도(longitude)				X
+위도(latitude)				X
+법정동코드				X
+
+<노외주차장>
+주차장고유값(pl_id)	
+주차장이름(pl_nm)	
+주차면수-평면식(pl_area_plane)		
+1일(전일)금액(pl_allday_pass_amt)	
+경도(longitude)	
+위도(latitude)
+법정동코드
+
+
+**********1일 가격 거주자 - 일반인 고려해서 생각해야함**************
+
+
+
+
+
+
+
